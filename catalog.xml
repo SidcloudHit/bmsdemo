@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="https://msg.trsc.nic.in/MessagingService/services?wsdl" uri="src/conf/xml-resources/web-service-references/services/wsdl/msg.trsc.nic.in/MessagingService/services.wsdl"/>
+    <system systemId="https://msg.trsc.nic.in:443/MessagingService/services?xsd=1" uri="src/conf/xml-resources/web-service-references/services/wsdl/msg.trsc.nic.in_443/MessagingService/services.xsd_1.xsd"/>
+</catalog>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/bms">
+  <ResourceLink auth="Container" global="bms_files" name="bms_files" type="javax.sql.DataSource"/>
+  <ResourceLink auth="Container" global="rcdata" name="rcdata" type="javax.sql.DataSource"/>
+  <ResourceLink auth="Container" global="rsaclient" name="rsaclient" type="javax.sql.DataSource"/>
+  <ResourceLink auth="Container" global="rc" name="rc" type="javax.sql.DataSource"/>
+  <ResourceLink auth="Container" global="rc_nd" name="rc_nd" type="javax.sql.DataSource"/>
+  <ResourceLink auth="Container" global="bms" name="bms" type="javax.sql.DataSource"/>
+  <ResourceLink auth="Container" global="bms_esign_files" name="bms_esign_files" type="javax.sql.DataSource"/>
+</Context>

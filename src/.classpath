@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="java"/>
+	<classpathentry exported="true" kind="lib" path="/BMS/build/web/WEB-INF/lib/SecureWebComm.jar"/>
+	<classpathentry exported="true" kind="lib" path="/BMS/build/web/WEB-INF/lib/java-json.jar"/>
+	<classpathentry exported="true" kind="lib" path="/BMS/lib/restlib/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/BMS/build/web/WEB-INF/lib/okhttp-3.9.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

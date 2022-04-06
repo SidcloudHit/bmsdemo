@@ -1,0 +1,594 @@
+@charset "UTF-8";
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 Jul, 2018, 6:34:19 PM
+    Author     : acer
+*/
+
+/*password strength popover style*/
+.popover.primary {
+    border-color:#337ab7;
+}
+.popover.primary>.arrow {
+    border-top-color:#337ab7;
+}
+.popover.primary>.popover-title {
+    color:#fff;
+    background-color:#337ab7;
+    border-color:#337ab7;
+}
+.popover.success {
+    border-color:#d6e9c6;
+}
+.popover.success>.arrow {
+    border-top-color:#d6e9c6;
+}
+.popover.success>.popover-title {
+    color:#3c763d;
+    background-color:#dff0d8;
+    border-color:#d6e9c6;
+}
+.popover.info {
+    border-color:#bce8f1;
+}
+.popover.info>.arrow {
+    border-top-color:#bce8f1;
+}
+.popover.info>.popover-title {
+    color:#31708f;
+    background-color:#d9edf7;
+    border-color:#bce8f1;
+}
+.popover.warning {
+    border-color:#faebcc;
+}
+.popover.warning>.arrow {
+    border-top-color:#faebcc;
+}
+.popover.warning>.popover-title {
+    color:#8a6d3b;
+    background-color:#fcf8e3;
+    border-color:#faebcc;
+}
+.popover.danger {
+    border-color:#ebccd1;
+}
+.popover.danger>.arrow {
+    border-top-color:#ebccd1;
+}
+.popover.danger>.popover-title {
+    color:#a94442;
+    background-color:#f2dede;
+    border-color:#ebccd1;
+}
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+}
+#sideNav {font-weight:600;text-transform:uppercase; padding: 0rem 0rem;}
+
+#sideNav{background-color:#4A68A7!important; text-align:left;top:auto;left:auto;width:100%;height:100%; line-height: 1.5;}
+/*#sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem}*/
+#sideNav .img-profile{max-width:10rem;max-height:10rem;border:.5rem solid rgba(255,255,255,.2)}
+#sideNav ul {width: 100%; padding-right: .5rem; padding-left: .5rem; margin-top: 0rem;}
+#sideNav ul li {list-style: none;}
+#sideNav ul li a {color: rgba(255,255,255,.5); padding-right: .5rem; padding-left: .5rem; text-decoration: none;}
+#sideNav ul li a:hover {color: rgba(255,255,255,.75); padding-right: .5rem; padding-left: .5rem; text-decoration: none;}
+
+.card-blank {
+    border: 0px;
+}
+
+input[type=text].invalid,input[type=file].invalid, div.invalid, select.invalid, textarea.invalid {
+    background-color: #ffdddd;
+}
+
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #4CAF50;
+}
+
+hr.separator{
+    border: 5px solid darkgray;
+    border-radius: 2px;
+}
+
+.ic-password{
+    before{content:"../Images/pwd.svg"}
+}
+
+.bg-form{
+    background-color: #bce8f1;
+}
+
+.bg-page{
+    background-color: #dff0d8;
+}
+
+.bg-page0{
+    background-color: #FFF8DC;
+}
+
+.bg-page1{
+    background-color: #FFE4C4;
+}
+
+.bg-page2{
+    background-color: #DEB887;
+}
+
+.bg-page3{
+    background-color: #CD853F;
+}
+
+.bg-page4{
+    background-color: #A0522D;
+}
+/*########################################*/
+.bg-td0{
+    background-color: #c7c0c0;
+}
+
+.bg-td1{
+    background-color: #e0d8d8;
+}
+
+.bg-td2{
+    background-color: #f9f1f1;
+}
+
+.bg-td3{
+    background-color: #faf5f5;
+}
+
+.bg-td4{
+    background-color: #fcf8f8;     
+}
+
+.bg-td0:hover,.bg-td0:focus,.bg-td1:hover,.bg-td1:focus,.bg-td2:hover,.bg-td2:focus,.bg-td3:hover,.bg-td3:focus{
+    background-color: #ffffff;
+}
+
+#beneficiaryTab table-hover tbody tr:hover td,tbody tr:focus td{
+    background-color: #4a4848;
+    color : #ffffff;
+}
+
+/*
+h1,h2,h3,h4,h5,h6 {
+font-family: "Helvetica";
+}
+*/
+
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+}
+
+
+nav > .nav.nav-tabs{
+
+    border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+    border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+{
+    content: "";
+    position: relative;
+    bottom: -60px;
+    left: -10%;
+    border: 15px solid transparent;
+    border-top-color: #005ce6 ;
+}
+.tab-content{
+    background: #fdfdfd;
+    line-height: 25px;
+    /*border: 1px solid #ddd;*/
+    border-top:5px solid #005ce6;
+    border-bottom:5px solid #005ce6;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+    border: none;
+    background: #005ce6;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+/*
+.collapsed {
+    background-image: url(../Images/plus.png);
+}
+
+.expanded{
+    background-image: url(../Images/minus.png);
+}*/
+.header-topbar{   
+    background-color: #B01116;
+    height: 10px;
+}
+
+.navbar-trb{
+    background: #FBF4C0;
+}
+
+/*css for dropdown search*/
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+#myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+#progress-wrp {
+    border: 1px solid #0099CC;
+    padding: 1px;
+    position: relative;
+    height: 30px;
+    border-radius: 3px;
+    margin: 10px;
+    text-align: left;
+    background: #fff;
+    box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.12);
+}
+
+#progress-wrp .progress-bar {
+    height: 100%;
+    border-radius: 3px;
+    background-color: #f39ac7;
+    width: 0;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.11);
+}
+
+#progress-wrp .status {
+    top: 3px;
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    color: #000000;
+}
+
+div.dataTables_length select {
+    width: 50px;
+}
+
+ /* The sidepanel menu */
+.sidepanel {
+  /*height: 250px;*/ /* Specify a height */
+  /*width: 0; *//* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: rgba(79, 88, 103, 1); /* Black*/
+  overflow-x: auto; /* Disable horizontal scroll */
+  overflow-y: auto; /* Disable horizontal scroll */
+  padding-top: auto; /* Place content 60px from the top */
+  transition: 0.2s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  /*font-size: 25px;
+  color: #818181;*/
+  display: block;
+  transition: 0.2s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.huge {
+    font-size: 40px;
+}
+
+.modal-esign {
+    max-width: 900px;
+    max-height: 700px;
+}
+
+
+/*form styles*/
+.msform {
+
+    position: relative;
+    margin-top: 30px;
+}
+
+.msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+/*Hide all except first fieldset*/
+.msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*inputs*/
+/*            .msform input, .msform textarea {
+                padding: 15px;
+                border: 1px solid #ccc;
+                border-radius: 0px;
+                margin-bottom: 10px;
+                width: 100%;
+                box-sizing: border-box;
+                color: #2C3E50;
+                font-size: 13px;
+            }
+
+            .msform input:focus, .msform textarea:focus {
+                -moz-box-shadow: none !important;
+                -webkit-box-shadow: none !important;
+                box-shadow: none !important;
+                border: 1px solid #ee0979;
+                outline-width: 0;
+                transition: All 0.5s ease-in;
+                -webkit-transition: All 0.5s ease-in;
+                -moz-transition: All 0.5s ease-in;
+                -o-transition: All 0.5s ease-in;
+            }*/
+
+/*buttons*/
+.msform .action-button {
+    width: 100px;
+    background: #ee0979;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+.msform .action-button:hover, .msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #ee0979;
+}
+
+.msform .action-button-previous {
+    width: 100px;
+    background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+.msform .action-button-previous:hover, .msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+}
+
+/*headings*/
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/*progressbar*/
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    text-align: center;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 20%;
+    float: left;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 24px;
+    height: 24px;
+    line-height: 26px;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    background: #ffeb00;
+    border-radius: 25px;
+    margin: 0 auto 10px auto;
+    z-index: 9999;
+    position: relative;
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: 0; /*put it behind the numbers*/
+}
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #d2bc1d;
+    color: white;
+}
+#progressbar li.success:before, #progressbar li.success:after {
+    background: #3c9e3f;
+    color: white;
+}
+
+.error{
+    color: red;
+}
+.payment_option_error .error{
+    margin-right:25px;
+}

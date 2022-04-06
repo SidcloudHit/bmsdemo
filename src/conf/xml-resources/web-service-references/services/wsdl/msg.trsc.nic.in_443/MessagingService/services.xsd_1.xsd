@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1 (UNKNOWN_BRANCH-false; 2015-01-15T16:53:43+0100) JAXWS-RI/2.2.10 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://main/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://main/">
+
+<xs:element name="sendmail" type="tns:sendmail"/>
+
+<xs:element name="sendmailResponse" type="tns:sendmailResponse"/>
+
+<xs:element name="sendmail_new" type="tns:sendmail_new"/>
+
+<xs:element name="sendmail_newResponse" type="tns:sendmail_newResponse"/>
+
+<xs:element name="sendsms" type="tns:sendsms"/>
+
+<xs:element name="sendsmsResponse" type="tns:sendsmsResponse"/>
+
+<xs:element name="sendsms_new" type="tns:sendsms_new"/>
+
+<xs:element name="sendsms_newResponse" type="tns:sendsms_newResponse"/>
+
+<xs:complexType name="sendsms_new">
+<xs:sequence>
+<xs:element name="intoken" type="xs:string" minOccurs="0"/>
+<xs:element name="inseed" type="xs:string" minOccurs="0"/>
+<xs:element name="mobileno" type="xs:string" minOccurs="0"/>
+<xs:element name="smsmsg" type="xs:string" minOccurs="0"/>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+<xs:element name="senderid" type="xs:string" minOccurs="0"/>
+<xs:element name="appid" type="xs:string" minOccurs="0"/>
+<xs:element name="dltid" type="xs:string" minOccurs="0"/>
+<xs:element name="templateid" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sendsms_newResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sendsms">
+<xs:sequence>
+<xs:element name="intoken" type="xs:string" minOccurs="0"/>
+<xs:element name="inseed" type="xs:string" minOccurs="0"/>
+<xs:element name="mobileno" type="xs:string" minOccurs="0"/>
+<xs:element name="smsmsg" type="xs:string" minOccurs="0"/>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+<xs:element name="senderid" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sendsmsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sendmail_new">
+<xs:sequence>
+<xs:element name="intoken" type="xs:string" minOccurs="0"/>
+<xs:element name="inseed" type="xs:string" minOccurs="0"/>
+<xs:element name="smtphost" type="xs:string" minOccurs="0"/>
+<xs:element name="smtpport" type="xs:string" minOccurs="0"/>
+<xs:element name="mailuser" type="xs:string" minOccurs="0"/>
+<xs:element name="mailto" type="xs:string" minOccurs="0"/>
+<xs:element name="mailsubject" type="xs:string" minOccurs="0"/>
+<xs:element name="mailtext" type="xs:string" minOccurs="0"/>
+<xs:element name="appid" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sendmail_newResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sendmail">
+<xs:sequence>
+<xs:element name="intoken" type="xs:string" minOccurs="0"/>
+<xs:element name="inseed" type="xs:string" minOccurs="0"/>
+<xs:element name="smtphost" type="xs:string" minOccurs="0"/>
+<xs:element name="smtpport" type="xs:string" minOccurs="0"/>
+<xs:element name="mailuser" type="xs:string" minOccurs="0"/>
+<xs:element name="mailto" type="xs:string" minOccurs="0"/>
+<xs:element name="mailsubject" type="xs:string" minOccurs="0"/>
+<xs:element name="mailtext" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sendmailResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
