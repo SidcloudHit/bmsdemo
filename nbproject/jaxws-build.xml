@@ -21,7 +21,7 @@
         <property name="j2ee.platform.wsimport.classpath" value="${libs.jaxws21.classpath}"/>
         <taskdef name="wsimport" classname="com.sun.tools.ws.Ant.WsImport">
             <classpath>
-                   <fileset dir="./extra-lib">
+                   <fileset dir="./extralib">
                           <include name="**/*.jar"/>
                    </fileset>
             </classpath>
